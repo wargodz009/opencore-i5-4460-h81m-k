@@ -3,7 +3,7 @@
 ###SPECS
 - i5-4460
 - h81m-k
-- gt 710
+- rx 580 4gb
 - rtl8811au usb wifi dongle
 - dual monitor
 

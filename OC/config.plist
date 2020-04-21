@@ -141,13 +141,6 @@
 			<false/>
 		</dict>
 	</dict>
-	<key>Boot</key>
-	<dict>
-		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
-		<key>Timeout</key>
-		<integer>3</integer>
-	</dict>
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
@@ -208,12 +201,12 @@
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>AQAAAA==</data>
+				<data>EgQAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data></data>
+				<data>AwAiDQ==</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -513,7 +506,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
@@ -674,7 +668,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 alcid=13</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 			</dict>
@@ -733,7 +727,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>D25530104QXFM59JC</string>
+			<string>D254266004NFM591F</string>
 			<key>ROM</key>
 			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
@@ -741,9 +735,9 @@
 			<key>SystemProductName</key>
 			<string>iMac14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>D25Q40C8FWJH</string>
+			<string>D25MXTYSFWJH</string>
 			<key>SystemUUID</key>
-			<string>B5556AF0-7354-48FE-9A44-483FB92934BC</string>
+			<string>263734B9-5B8A-40FE-B5DF-797E2F42AB7E</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -753,11 +747,6 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
-	</dict>
-	<key>SystemParameters</key>
-	<dict>
-		<key>InjectKexts</key>
-		<string>Yes</string>
 	</dict>
 	<key>UEFI</key>
 	<dict>
